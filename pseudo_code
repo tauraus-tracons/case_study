@@ -1,0 +1,11 @@
+Create a master branch where the core code will be there(i.e Source code)
+If there are more developing teams create features for each team (i.e dev,test,prod)
+Each feature will have the source code within them.
+If each team have many persons we can create their own feature.
+Once the change is completed and committed each user needs to create a pull request in github to merge with the master branch after reviewing.
+Once the reviewer see the changes and approves it. Then the reviwer or admin will merge the change with the master.
+Once it is deployed in dev environment it will be pushed to test environment and to prod
+If we are facing any issue in prod environment will create a hot fix and will deploy.
+Then the hotfix and any changes in the prod should be rebased to test environment for further develpment.
+Then the changes in test should be rebased to dev environment too.
+Like this the development will go on.
